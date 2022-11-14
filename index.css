@@ -1,0 +1,109 @@
+/* Michael Mecklenburg*/
+/* 11/13/22 */
+/* Chapter 10 */
+
+
+
+/* Leaf Header*/
+.section-leaf {
+  height: 40px;
+
+  background-size: cover;
+  display: flex;
+
+  justify-content: center;
+}
+.section-leaf img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Photo Header*/
+.section-intro {
+  height: auto;
+
+  background-image: url("/images/banner.jpg");
+
+  background-size: cover;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.section-intro h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 3em;
+}
+/*Body */
+body h2 {
+  text-align: center;
+  color: #66cc66;
+  line-height: 2em;
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  background-image: url(/images/background.png);
+}
+
+body h3 {
+  padding-top: 1em;
+  text-indent: 150px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+}
+
+.section-p p {
+  text-indent: 180px;
+  line-height: 0.5em;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+hr.class-1 {
+  border-top: 1.5px solid black;
+}
+/* Footer*/
+.footer {
+  text-align: left;
+  float: right;
+  padding-right: 30px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 0.5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+/* Dessert */
+#dessert {
+  border: solid 2px #366b36;
+  color: #366b36;
+}
+
+#dessert h2 {
+  color: #366b36;
+  font-family: cursive, "Open Sans", sans-serif;
+}
+#dessert em {
+  color: #366b36;
+  font-family: cursive, "Open Sans", sans-serif;
+  font-family: lighter;
+}
+#dessert p {
+  color: #366b36;
+  font-family: cursive, "Open Sans", sans-serif;
+}
+#dessert h3 {
+  color: #366b36;
+  font-family: cursive, "Open Sans", sans-serif;
+}
