@@ -19,7 +19,7 @@
 }
 
 /* Photo Header*/
-.section-intro {
+#section-intro {
   height: auto;
 
   background-image: url("images/banner.jpg");
@@ -31,7 +31,7 @@
   justify-content: center;
 }
 
-.section-intro h1 {
+#section-intro h1 {
   padding-top: 150px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
